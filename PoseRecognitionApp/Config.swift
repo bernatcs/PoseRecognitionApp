@@ -13,7 +13,7 @@ struct Config: View {
     var body: some View {
         NavigationView {
             Text("Esta es la vista de Config")
-                .navigationTitle("Config")
+                .navigationTitle("Configuration")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {

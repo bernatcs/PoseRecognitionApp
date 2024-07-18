@@ -9,12 +9,12 @@ import SwiftUI
 import AVFoundation
 
 @main
-struct QuickPose_DemoApp: App {
+struct PoseRecognitionAppApp: App {
     var body: some Scene {
         WindowGroup {
             #if !targetEnvironment(simulator)
-            DemoAppView().edgesIgnoringSafeArea(.all)
-                .background(Color("AccentColor"))
+            PoseRecognitionApp().edgesIgnoringSafeArea(.all)
+                .background(Color(UIColor.orange))
             #else
             Text("QuickPose.ai requires a native arm64 device to run")
                 .font(.system(size: 42, weight: .semibold)).foregroundColor(.red)
@@ -23,7 +23,7 @@ struct QuickPose_DemoApp: App {
     }
 }
 
-struct DemoAppView: View {
+struct PoseRecognitionApp: View {
     @State var cameraPermissionGranted = false
     var body: some View {
         GeometryReader { geometry in
