@@ -41,6 +41,6 @@ fastlane/test_output
 *.perspectivev3
 
 # Configuración de claves
-sdkKey.swift
+PoseRecognitionApp/sdkKey.swift
 
 
