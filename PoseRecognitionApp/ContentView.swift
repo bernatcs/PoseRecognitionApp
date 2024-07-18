@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PoseRecognitionApp
 //
-//  Created by Bernat CS - SBP on 18/7/24.
+//  Created by Bernat CS on 18/7/24.
 //
 
 import SwiftUI

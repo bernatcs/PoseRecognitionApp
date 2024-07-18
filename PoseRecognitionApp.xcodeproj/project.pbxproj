@@ -16,7 +16,6 @@
 		848C86C42C48F43000D1218D /* QuickPoseMP in Frameworks */ = {isa = PBXBuildFile; productRef = 848C86C32C48F43000D1218D /* QuickPoseMP */; };
 		848C86C62C48F43000D1218D /* QuickPoseSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 848C86C52C48F43000D1218D /* QuickPoseSwiftUI */; };
 		848C86C82C48F47900D1218D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848C86C72C48F47900D1218D /* Launch Screen.storyboard */; };
-		848C86CD2C48FCDF00D1218D /* gitignore.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 848C86CC2C48FCDF00D1218D /* gitignore.gitignore */; };
 		848C86CF2C48FD5900D1218D /* sdkKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C86CE2C48FD5900D1218D /* sdkKey.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		848C86B72C48F41400D1218D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		848C86C72C48F47900D1218D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		848C86C92C48F7C500D1218D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		848C86CC2C48FCDF00D1218D /* gitignore.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = gitignore.gitignore; sourceTree = "<group>"; };
 		848C86CE2C48FD5900D1218D /* sdkKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sdkKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +70,6 @@
 				848C86CE2C48FD5900D1218D /* sdkKey.swift */,
 				848C86B42C48F41400D1218D /* Assets.xcassets */,
 				848C86C72C48F47900D1218D /* Launch Screen.storyboard */,
-				848C86CC2C48FCDF00D1218D /* gitignore.gitignore */,
 				848C86B62C48F41400D1218D /* Preview Content */,
 			);
 			path = PoseRecognitionApp;
@@ -155,7 +152,6 @@
 			files = (
 				848C86C82C48F47900D1218D /* Launch Screen.storyboard in Resources */,
 				848C86B82C48F41400D1218D /* Preview Assets.xcassets in Resources */,
-				848C86CD2C48FCDF00D1218D /* gitignore.gitignore in Resources */,
 				848C86B52C48F41400D1218D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
