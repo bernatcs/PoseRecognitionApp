@@ -9,7 +9,7 @@ import SwiftUI
 import QuickPoseCore
 import QuickPoseSwiftUI
 
-struct ContentView: View {
+struct Instr_Piano: View {
 
     private var quickPose = QuickPose(sdkKey: sdkKey.sdkKey)
     @State private var overlayImage: UIImage?

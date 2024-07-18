@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843738D02C49562F009A877C /* Instr_Piano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738CF2C49562F009A877C /* Instr_Piano.swift */; };
+		843738D22C495988009A877C /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738D12C495988009A877C /* Credits.swift */; };
+		843738D42C4959B4009A877C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738D32C4959B4009A877C /* Config.swift */; };
+		843738D62C495BED009A877C /* Instr_Clarinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738D52C495BED009A877C /* Instr_Clarinet.swift */; };
+		843738D82C495C27009A877C /* Instr_Composer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738D72C495C27009A877C /* Instr_Composer.swift */; };
 		848C86B12C48F41300D1218D /* PoseRecognitionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C86B02C48F41300D1218D /* PoseRecognitionAppApp.swift */; };
-		848C86B32C48F41300D1218D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C86B22C48F41300D1218D /* ContentView.swift */; };
+		848C86B32C48F41300D1218D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C86B22C48F41300D1218D /* HomeView.swift */; };
 		848C86B52C48F41400D1218D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C86B42C48F41400D1218D /* Assets.xcassets */; };
 		848C86B82C48F41400D1218D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C86B72C48F41400D1218D /* Preview Assets.xcassets */; };
 		848C86C02C48F43000D1218D /* QuickPoseCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 848C86BF2C48F43000D1218D /* QuickPoseCamera */; };
@@ -20,9 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843738CF2C49562F009A877C /* Instr_Piano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instr_Piano.swift; sourceTree = "<group>"; };
+		843738D12C495988009A877C /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		843738D32C4959B4009A877C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		843738D52C495BED009A877C /* Instr_Clarinet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instr_Clarinet.swift; sourceTree = "<group>"; };
+		843738D72C495C27009A877C /* Instr_Composer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instr_Composer.swift; sourceTree = "<group>"; };
 		848C86AD2C48F41300D1218D /* PoseRecognitionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoseRecognitionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848C86B02C48F41300D1218D /* PoseRecognitionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseRecognitionAppApp.swift; sourceTree = "<group>"; };
-		848C86B22C48F41300D1218D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		848C86B22C48F41300D1218D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		848C86B42C48F41400D1218D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848C86B72C48F41400D1218D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		848C86C72C48F47900D1218D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -66,7 +76,12 @@
 			children = (
 				848C86C92C48F7C500D1218D /* Info.plist */,
 				848C86B02C48F41300D1218D /* PoseRecognitionAppApp.swift */,
-				848C86B22C48F41300D1218D /* ContentView.swift */,
+				848C86B22C48F41300D1218D /* HomeView.swift */,
+				843738D12C495988009A877C /* Credits.swift */,
+				843738D32C4959B4009A877C /* Config.swift */,
+				843738CF2C49562F009A877C /* Instr_Piano.swift */,
+				843738D52C495BED009A877C /* Instr_Clarinet.swift */,
+				843738D72C495C27009A877C /* Instr_Composer.swift */,
 				848C86CE2C48FD5900D1218D /* sdkKey.swift */,
 				848C86B42C48F41400D1218D /* Assets.xcassets */,
 				848C86C72C48F47900D1218D /* Launch Screen.storyboard */,
@@ -163,9 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848C86B32C48F41300D1218D /* ContentView.swift in Sources */,
+				848C86B32C48F41300D1218D /* HomeView.swift in Sources */,
 				848C86CF2C48FD5900D1218D /* sdkKey.swift in Sources */,
+				843738D62C495BED009A877C /* Instr_Clarinet.swift in Sources */,
+				843738D02C49562F009A877C /* Instr_Piano.swift in Sources */,
+				843738D22C495988009A877C /* Credits.swift in Sources */,
 				848C86B12C48F41300D1218D /* PoseRecognitionAppApp.swift in Sources */,
+				843738D82C495C27009A877C /* Instr_Composer.swift in Sources */,
+				843738D42C4959B4009A877C /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

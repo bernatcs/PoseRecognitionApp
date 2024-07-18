@@ -28,7 +28,7 @@ struct DemoAppView: View {
     var body: some View {
         GeometryReader { geometry in
             if cameraPermissionGranted {
-                ContentView()
+                HomeView()
             }
         }.onAppear {
             AVCaptureDevice.requestAccess(for: .video) { accessGranted in
