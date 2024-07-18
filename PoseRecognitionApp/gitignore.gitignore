@@ -1,0 +1,44 @@
+# Xcode
+DerivedData/
+.idea/
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcuserstate
+*.xcodeproj/xcshareddata/xcschemes/xcschememanagement.plist
+
+# Swift Package Manager
+.build/
+Packages/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Build generated
+*.app
+*.app.dSYM
+*.framework
+*.ipa
+*.dSYM.zip
+
+# Archives
+*.xcarchive
+
+# Others
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Configuración de claves
+sdkKey.swift
