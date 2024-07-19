@@ -31,7 +31,7 @@ struct HomeView: View {
                     Button(action: {
                         showCredits = true
                     }) {
-                        Text("Credits")
+                        Image(systemName: "info.circle")
                     }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
@@ -43,7 +43,7 @@ struct HomeView: View {
                 }
             }
             .sheet(isPresented: $showCredits) {
-                Credits()
+                Info()
             }
             .sheet(isPresented: $showConfig) {
                 Config()
