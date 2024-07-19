@@ -13,7 +13,7 @@ struct Instr_Piano: View {
         NavigationView {
             GeometryReader { geometry in
                 ZStack (alignment: .top) {
-                    if ProcessInfo.processInfo.isiOSAppOnMac, let url = Bundle.main.url(forResource: "Piano Posture", withExtension: "mov") {
+                    if ProcessInfo.processInfo.isiOSAppOnMac, let url = Bundle.main.url(forResource: "Piano Posture", withExtension: "mp4") {
                         QuickPoseSimulatedCameraView(useFrontCamera: false, delegate: quickPose, video: url)
                     } else {
                         QuickPoseCameraSwitchView(useFrontCamera: $useFrontCamera, delegate: quickPose)
