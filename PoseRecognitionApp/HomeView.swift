@@ -25,7 +25,7 @@ struct HomeView: View {
                     Text("Composer")
                 }
             }
-            .navigationTitle("Instruments")
+            .navigationTitle("Available positions")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button(action: {

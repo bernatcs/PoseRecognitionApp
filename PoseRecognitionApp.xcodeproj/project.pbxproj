@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841728E12C4A462F00E2308B /* Instr_Piano_demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 841728E02C4A462F00E2308B /* Instr_Piano_demo.mp4 */; };
 		843738D02C49562F009A877C /* Instr_Piano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738CF2C49562F009A877C /* Instr_Piano.swift */; };
 		843738D22C495988009A877C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738D12C495988009A877C /* Info.swift */; };
 		843738D42C4959B4009A877C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843738D32C4959B4009A877C /* Config.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841728E02C4A462F00E2308B /* Instr_Piano_demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Instr_Piano_demo.mp4; sourceTree = "<group>"; };
 		843738CF2C49562F009A877C /* Instr_Piano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instr_Piano.swift; sourceTree = "<group>"; };
 		843738D12C495988009A877C /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		843738D32C4959B4009A877C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		848C86B62C48F41400D1218D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				841728E02C4A462F00E2308B /* Instr_Piano_demo.mp4 */,
 				848C86B72C48F41400D1218D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848C86C82C48F47900D1218D /* Launch Screen.storyboard in Resources */,
+				841728E12C4A462F00E2308B /* Instr_Piano_demo.mp4 in Resources */,
 				848C86B82C48F41400D1218D /* Preview Assets.xcassets in Resources */,
 				848C86B52C48F41400D1218D /* Assets.xcassets in Resources */,
 			);
